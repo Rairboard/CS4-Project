@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-image: linear-gradient(270deg, white,rgba(6, 41, 87, 0.596));
+}
+.outer{
+    position: relative;
+    background: linear-gradient(180deg, rgb(255,255,255),rgb(6, 41, 87));
+    width: 400px;
+    padding: 1.5rem;
+    margin: 150px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 35px 10px white;
+}
+.input{
+    padding: 1% 0;
+    position: relative;
+}
+.submit{
+    background-color:rgb(255, 217, 0);
+}
+form{
+    margin: 0 2rem;
+}
+input{
+    color: inherit;
+    width: 100%;
+    border-color:antiquewhite;
+    background-color: lightyellow;
+    padding-left: 1.5rem;
+    font-size: 15px;
+}
+a{
+    position: center;
+    margin: 50px auto;
+}
